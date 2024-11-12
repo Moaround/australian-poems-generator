@@ -6,47 +6,49 @@
     <title>AI Australian Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Australian Poem Generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>AI Australian Poem Generator</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the Australian poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        The poem will go here
-        <br />
-        The poem will go here
-      </div>
-    </main>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the Australian poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          The poem will go here
+          <br />
+          The poem will go here
+        </div>
+      </main>
 
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/Moaround" target="_blank"> Monique Grol</a>
-      and is
-      <a
-        href="https://github.com/Moaround/australian-poems-generator"
-        target="_blank"
-      >
-        open-sourced on GitHub</a
-      >
-      and is
-      <a
-        href="https://ai-australian-poems-generator.netlify.app/"
-        target="_blank"
-      >
-        hosted on Netlify.</a
-      >
-    </footer>
-
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/Moaround" target="_blank"> Monique Grol</a>
+        and is
+        <a
+          href="https://github.com/Moaround/australian-poems-generator"
+          target="_blank"
+        >
+          open-sourced on GitHub</a
+        >
+        and is
+        <a
+          href="https://ai-australian-poems-generator.netlify.app/"
+          target="_blank"
+        >
+          hosted on Netlify.</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
